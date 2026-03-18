@@ -1,65 +1,56 @@
 template: "online-cv"
 skin: "blue"
 
-# Personal Information
 basic_info:
-
-  # Your full name
   first_name: Edgar
   last_name: Garcia
-
-  # Define yourself in 4-5 words
   motto: Aprendiendo a construir en web
-
-  # Focus
   focus: Front-End Development
-
-  # You have 1 paragraph to make a great impression, summarize your career
   summary: |
     Soy estudiante de desarrollo web en 4Geeks Academy y actualmente estoy
     aprendiendo HTML, CSS, Bootstrap y JavaScript desde cero. Me interesa
     construir proyectos prácticos, mejorar mi lógica y seguir creciendo como
     desarrollador paso a paso.
 
-    También me interesa seguir aprendiendo y crear una base sólida para convertirme en desarrollador full stack.
-
-  # Your profile picture URL
+    También me interesa seguir aprendiendo y crear una base sólida para convertirme
+    en desarrollador full stack.
   avatar: ""
-
-  # Contact Information
   email: wladimiredgar@gmail.com
-  phone: +34 624512106
+  phone: "+34 624512106"
   website: ""
   linkedin: ""
   github: wladimiredgar
   twitter: ""
   stack-overflow: ""
 
-  # Languages you speak, levels include: Native, Professional
   languages:
     - idiom: Spanish
       level: Native
-
     - idiom: English
       level: Basic
 
-  # Interests or hobbies
   interests:
     - item: Web Development
     - item: Gym
     - item: Gaming
 
-# Your previous education
 education:
   - degree: Web Development Student
     university: 4Geeks Academy
     university_logo: ""
-    time: 2026 - Present
+    time: "2026 - Present"
     details: |
       Actualmente estoy estudiando desarrollo web y practicando con proyectos
       enfocados en HTML, CSS, Bootstrap y JavaScript.
 
-# Your project portfolio
+experiences:
+  - role: Web Development Student
+    time: "2026 - Present"
+    company: 4Geeks Academy
+    details: |
+      Actualmente estoy aprendiendo HTML, CSS, Bootstrap, JavaScript,
+      Git y GitHub mediante proyectos prácticos.
+
 projects:
   intro: >
     Estos son algunos de los proyectos y ejercicios que he ido desarrollando
@@ -84,16 +75,16 @@ projects:
 skills:
   toolset:
     - name: HTML
-      level: 70%
+      level: "70%"
 
     - name: CSS
-      level: 65%
+      level: "65%"
 
     - name: Bootstrap
-      level: 60%
+      level: "60%"
 
     - name: JavaScript
-      level: 35%
+      level: "35%"
 
     - name: Git & GitHub
-      level: 45%
+      level: "45%"
